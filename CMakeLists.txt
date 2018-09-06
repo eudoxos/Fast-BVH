@@ -23,5 +23,5 @@ set(HEADERS
 add_library(FastBVH STATIC ${SOURCES})
 
 install (TARGETS FastBVH DESTINATION lib)
-install (FILES ${HEADERS} DESTINATION include)
+install (FILES ${HEADERS} DESTINATION include/FastBVH)
 
